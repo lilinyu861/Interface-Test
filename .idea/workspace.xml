@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f2b596-076a-4a87-ab61-67f7e68f6e82" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/common/permutations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/reports/test_write_excel.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_read_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_write_excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_common.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Interface_Test$test_read_excel.coverage" NAME="test_read_excel Coverage Results" MODIFIED="1551703397215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Interface_Test$test_write_excel.coverage" NAME="test_write_excel Coverage Results" MODIFIED="1551702220852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Interface_Test$test_common.coverage" NAME="test_common Coverage Results" MODIFIED="1551704634720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -29,14 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_read_excel.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_read_excel.py">
+      <file leaf-file-name="test_common.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="182">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permutations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/permutations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -91,6 +100,7 @@
         <option value="$PROJECT_DIR$/common/write_to_excel.py" />
         <option value="$PROJECT_DIR$/test/test_write_excel.py" />
         <option value="$PROJECT_DIR$/test/test_read_excel.py" />
+        <option value="$PROJECT_DIR$/test/test_common.py" />
       </list>
     </option>
   </component>
@@ -124,13 +134,12 @@
             <path>
               <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="data_origin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,8 +161,8 @@
       <recent name="D:\githublily\Interface-Test\data_origin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\githublily\Interface-Test\data\test" />
       <recent name="D:\githublily\Interface-Test\common" />
+      <recent name="D:\githublily\Interface-Test\data\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,7 +177,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_read_excel">
+  <component name="RunManager" selected="Python.test_common">
+    <configuration name="test_common" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interface-Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_common.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test_read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interface-Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +210,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_read_excel.py" />
+      <option name="SCRIPT_NAME" value="D:\githublily\Interface-Test\test\test_common.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,9 +238,11 @@
     <list>
       <item itemvalue="Python.test_read_excel" />
       <item itemvalue="Python.test_write_excel" />
+      <item itemvalue="Python.test_common" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_common" />
         <item itemvalue="Python.test_read_excel" />
         <item itemvalue="Python.test_write_excel" />
       </list>
@@ -238,7 +268,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.3292683" />
@@ -265,13 +295,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/test_permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/generate_signature.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -330,10 +353,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_read_excel.py">
+    <entry file="file://$PROJECT_DIR$/common/permutations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="202">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
