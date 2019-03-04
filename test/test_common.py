@@ -1,6 +1,7 @@
 from common.read_excel import ReadExcel
 from common.write_to_excel import Writedata
 from common.permutations import Permutations
+from common.generate_testcases import Generagetestcases
 
 
 class Test():
@@ -33,8 +34,16 @@ class Test():
         ss1 = permutations1.assemble()
         print(ss1)
 
+    # 测试自由组合生成测试用例
+    def test_generate_testcases(self):
+        g = Generagetestcases()
+        g.generate_testcases("../test/data_origin/test_read_excel.xlsx",  # read path
+                             "../test/data/test_case_01.xls",  # write path 01
+                             '../test/data/test_case_02.xls')  # write path 02
+
 
 if __name__ == '__main__':
     # Test().test_read_excel()
     # Test().test_write_xcel()
-    Test().test_permutations()
+    # Test().test_permutations()
+    Test().test_generate_testcases()
