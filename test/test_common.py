@@ -2,6 +2,7 @@ from common.read_excel import ReadExcel
 from common.write_to_excel import Writedata
 from common.permutations import Permutations
 from common.generate_testcases import Generagetestcases
+from common.excel_to_dic import ExcelToDic
 
 
 class Test():
@@ -41,9 +42,20 @@ class Test():
                              "../test/data/test_case_01.xls",  # write path 01
                              '../test/data/test_case_02.xls')  # write path 02
 
+    # 测试将excel转换成dic的测试用例
+    def test_excel_to_dic(self):
+        data_list = ExcelToDic().getExcelData("../test/data/test_case_01.xls", "Sheet1")
+        print(data_list)
+
 
 if __name__ == '__main__':
+    # 读取excel
     # Test().test_read_excel()
+    # 写入excel
     # Test().test_write_xcel()
+    # 测试自由组合
     # Test().test_permutations()
-    Test().test_generate_testcases()
+    # 生成测试用例并写入excel中
+    # Test().test_generate_testcases()
+    # 将excel中数据转换成字典格式
+    Test().test_excel_to_dic()

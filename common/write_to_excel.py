@@ -7,7 +7,7 @@ class Writedata(object):
     # 将数据写入excel中
     def data_write(self, save_path, datas):
         book = xlwt.Workbook(encoding="utf-8")
-        sheet = book.add_sheet('sheet1', cell_overwrite_ok=True)
+        sheet = book.add_sheet('Sheet1', cell_overwrite_ok=True)
         # 将数据写入第i行，第j列
         i = 0
         for data in datas:

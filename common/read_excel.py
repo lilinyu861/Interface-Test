@@ -28,7 +28,7 @@ class ReadExcel(object):
             ss = table.col_values(i)[1:]
             s1.append(ss)
 
-        return s0, s1
+        return s0, s1, title0
 
     # 读取excel中的数据，并将数据按行存储到列表s2中
     def read_and_save_rows_excel(self):
@@ -46,6 +46,7 @@ class ReadExcel(object):
             s2.append(s)
 
         return s2
+
 
 '''
 excel = Readexcel("../original-data/data_origin/1.xlsx")
