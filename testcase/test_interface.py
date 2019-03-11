@@ -1,7 +1,7 @@
 """
 测试接口方法
 """
-from data.interfaceUrl import Url
+from common_data.interfaceUrl import Url
 from common.reqMethod import RequestMethod
 import unittest
 import warnings
