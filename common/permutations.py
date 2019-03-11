@@ -1,11 +1,11 @@
-from common.read_excel import *
+from common.readExcel import *
 '''
 实现测试用例的排列组合，生成排列组合后的测试用例
 '''
 
 
 class Permutations(object):
-    # 初始化
+    """初始化"""
     def __init__(self, datagroup):
         self.datagroup = datagroup
         # 二维数组从后往前下标值
@@ -13,7 +13,7 @@ class Permutations(object):
         # 每次输出数组数值的下标值数组(初始化为0)
         self.counter = [0 for i in range(0, len(self.datagroup))]
 
-    # 计算数组长度
+    """计算数组长度"""
     def count_length(self):
         i = 0
         length = 1
@@ -22,7 +22,7 @@ class Permutations(object):
             i += 1
         return length
 
-    # 递归处理输出下标
+    """递归处理输出下标"""
     def handle(self):
         # 定位输出下标数组开始从最后一位递增
         self.counter[self.counterIndex]+=1
@@ -38,7 +38,7 @@ class Permutations(object):
             # 重置标记
             self.counterIndex = len(self.datagroup)-1
 
-    # 排列组合输出
+    """排列组合输出"""
     def assemble(self):
         # 用ss列表存储排列组合后生成的数据
         ss = []

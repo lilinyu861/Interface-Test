@@ -1,10 +1,11 @@
 from common.permutations import Permutations
-from common.write_to_excel import Writedata
-from common.read_excel import ReadExcel
+from common.writeToExcel import Writedata
+from common.readExcel import ReadExcel
 
 
-class Generagetestcases(object):
-    # read_path 读取文件路径，write_path0 写入测试用例的excel文件路径，write_path1 写入测试用例解释标签的excel路径
+class Generatetestcases(object):
+    """ read_path 读取文件路径，write_path0 写入测试用例的excel文件路径，write_path1 写入测试用例解释标签的excel路径"""
+
     def generate_testcases(self, read_path, write_path0, write_path1):
         # 生成排列组合的测试用例和测试用例解释标签
         excel = ReadExcel(read_path)
@@ -31,6 +32,6 @@ class Generagetestcases(object):
         Writedata().data_write(write_path1, ss1)
 
 '''
-g = Generagetestcases()
+g = Generatetestcases()
 g.generate_testcases("../original-data/test/1.xlsx", "../testcases/test/1.xls", '../testcases/test/2.xls')
 '''

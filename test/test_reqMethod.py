@@ -1,6 +1,3 @@
-"""
-测试接口方法
-"""
 from data.interfaceUrl import Url
 from common.reqMethod import RequestMethod
 import unittest
@@ -8,7 +5,7 @@ import warnings
 
 
 class TestMethod(unittest.TestCase):
-    """测试百度网址接口"""
+
     def setUp(self):
         warnings.simplefilter("ignore", ResourceWarning)
         self.url = Url.baidu_url

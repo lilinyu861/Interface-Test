@@ -3,11 +3,11 @@ import xlrd
 
 
 class ReadExcel(object):
-    # 初始化
+    """初始化"""
     def __init__(self, path):
         self.path = path
 
-    # 读取excel中的数据，并将数据按列存储到列表s0，s1中
+    """读取excel中的数据，并将数据按列存储到列表s0，s1中"""
     # s0中存储测试用例，s1中存储测试用例解释
     def read_and_save_cols_excel(self):
         # 读取测试用例
@@ -30,7 +30,7 @@ class ReadExcel(object):
 
         return s0, s1, title0
 
-    # 读取excel中的数据，并将数据按行存储到列表s2中
+    """读取excel中的数据，并将数据按行存储到列表s2中"""
     def read_and_save_rows_excel(self):
         # 读取测试用例
         data = xlrd.open_workbook(self.path)
