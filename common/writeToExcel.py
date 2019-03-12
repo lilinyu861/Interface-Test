@@ -24,7 +24,7 @@ class Writedata(object):
         sheet = book.add_sheet('Sheet1', cell_overwrite_ok=True)
         # 将数据写入i行j列
         sheet.write(row, col, data)
-        sheet.write(self.save_path)
+        book.save(self.save_path)
 '''
 s =[[1,2],[0]]
 W = Writedata()
