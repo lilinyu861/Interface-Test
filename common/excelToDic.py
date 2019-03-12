@@ -7,6 +7,9 @@ import xlrd
 
 
 class ExcelToDic():
+    def __init__(self):
+        pass
+
     # 将excel中数据转换成字典
     def getExcelData(self, excel_path, sheet_name):
         bk = xlrd.open_workbook(excel_path)

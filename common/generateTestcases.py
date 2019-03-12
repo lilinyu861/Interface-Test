@@ -3,7 +3,7 @@ from common.writeToExcel import Writedata
 from common.readExcel import ReadExcel
 
 
-class Generatetestcases(object):
+class GenerateTestcases(object):
     """ read_path 读取文件路径，write_path0 写入测试用例的excel文件路径，write_path1 写入测试用例解释标签的excel路径"""
 
     def generate_testcases(self, read_path, write_path0, write_path1):
@@ -28,8 +28,8 @@ class Generatetestcases(object):
         print(ss1)
 
         # 将生成的测试用例写入excel中
-        Writedata().data_write(write_path0, ss0)
-        Writedata().data_write(write_path1, ss1)
+        Writedata(write_path0).data_write(write_path0, ss0)
+        Writedata(write_path1).data_write(write_path1, ss1)
 
 '''
 g = Generatetestcases()

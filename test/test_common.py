@@ -1,7 +1,7 @@
 from common.readExcel import ReadExcel
 from common.writeToExcel import Writedata
 from common.permutations import Permutations
-from common.generateTestcases import Generatetestcases
+from common.generateTestcases import GenerateTestcases
 from common.excelToDic import ExcelToDic
 
 
@@ -37,7 +37,7 @@ class Test():
 
     # 测试自由组合生成测试用例
     def test_generate_testcases(self):
-        g = Generatetestcases()
+        g = GenerateTestcases()
         g.generate_testcases("../test/data_origin/test_read_excel.xlsx",  # read path
                              "../test/data/test_case_01.xls",  # write path 01
                              '../test/data/test_case_02.xls')  # write path 02
