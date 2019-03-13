@@ -1,6 +1,7 @@
 from common.permutations import Permutations
 from common.writeToExcel import Writedata
 from common.readExcel import ReadExcel
+from common.excelToDic import ExcelToDic
 
 
 class GenerateTestcases(object):
@@ -30,6 +31,8 @@ class GenerateTestcases(object):
         # 将生成的测试用例写入excel中
         Writedata(write_path0).data_write(write_path0, ss0)
         Writedata(write_path1).data_write(write_path1, ss1)
+        testcases = ExcelToDic().getExcelData(write_path0, 'Sheet1')
+        return testcases
 
 '''
 g = Generatetestcases()

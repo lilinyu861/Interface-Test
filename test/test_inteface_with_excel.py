@@ -19,7 +19,7 @@ excel_case_2 = '../test/data/test_case_02.xls'
 save_path = '../test/reports/report.xls'
 g = GenerateTestcases()
 # 生成测试用例及测试用例解释的excel文件
-g.generate_testcases(origin_excel_path, excel_case_1, excel_case_2)
+test_cases = g.generate_testcases(origin_excel_path, excel_case_1, excel_case_2)
 # 写入的excel
 book = xlwt.Workbook(encoding="utf-8")
 sheet = book.add_sheet('Sheet1', cell_overwrite_ok=True)
@@ -28,7 +28,7 @@ headers = {
     'Content-Type': 'application/json'
 }
 # 将测试用例写入excel文件中
-test_cases = ExcelToDic().getExcelData(excel_case_1, 'Sheet1')
+# test_cases = ExcelToDic().getExcelData(excel_case_1, 'Sheet1')
 print(test_cases)
 len = len(test_cases)
 for i in range(len):

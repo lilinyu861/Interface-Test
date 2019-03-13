@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f2b596-076a-4a87-ab61-67f7e68f6e82" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test/data_origin/test_read_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_origin/test_read_excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/generateTestcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/generateTestcases.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_inteface_with_excel.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_inteface_with_excel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_inteface_with_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="209">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#74#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generateTestcases.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generateTestcases.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/generateTestcases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="172">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -105,7 +109,7 @@
       <file leaf-file-name="excelToDic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/excelToDic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="209">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -144,12 +148,12 @@
         <option value="$PROJECT_DIR$/test/test_reqMethod.py" />
         <option value="$PROJECT_DIR$/testcase/test_inteface_with_excel.py" />
         <option value="$PROJECT_DIR$/common/excelToDic.py" />
-        <option value="$PROJECT_DIR$/common/generateTestcases.py" />
         <option value="$PROJECT_DIR$/test/test_inteface_with_excel.py" />
         <option value="$PROJECT_DIR$/common/writeToExcel.py" />
         <option value="$PROJECT_DIR$/common_data/interfaceUrl.py" />
         <option value="$PROJECT_DIR$/common_data/1.robot" />
         <option value="$PROJECT_DIR$/test/test_common.py" />
+        <option value="$PROJECT_DIR$/common/generateTestcases.py" />
       </list>
     </option>
   </component>
@@ -163,10 +167,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="945" />
-    <option name="y" value="162" />
-    <option name="width" value="981" />
-    <option name="height" value="1092" />
+    <option name="x" value="-1403" />
+    <option name="y" value="257" />
+    <option name="width" value="818" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -188,45 +192,7 @@
             <path>
               <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="common_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="data_origin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="data_origin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -462,7 +428,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-1447" y="169" width="1166" height="734" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5004042" side_tool="true" weight="0.33449477" />
@@ -470,10 +437,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" visible="true" weight="0.21428572" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252222" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" visible="true" weight="0.21465969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27075812" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -484,7 +452,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" visible="true" weight="0.3292683" />
     </layout>
   </component>
@@ -764,23 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/excelToDic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/generateTestcases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/permutations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -828,8 +778,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_inteface_with_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="209">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#74#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/excelToDic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/generateTestcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
