@@ -15,7 +15,7 @@ class Test():
     # 测试向excel中写数据
     def test_write_xcel(self):
         s = [[1, 2], [0]]
-        W = Writedata()
+        W = Writedata(save_path="../test/reports/test_write_excel.xls")
         W.data_write("../test/reports/test_write_excel.xls", s)
 
     # 测试自由组合

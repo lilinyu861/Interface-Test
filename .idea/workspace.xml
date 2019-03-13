@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f2b596-076a-4a87-ab61-67f7e68f6e82" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test_inteface_with_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/excelToDic.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/excelToDic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/generateTestcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/generateTestcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/writeToExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/writeToExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_data/interfaceUrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/common_data/interfaceUrl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/test_case_01.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/test_case_02.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_origin/test_read_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_origin/test_read_excel.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/reports/test_write_excel.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_common.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,14 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_inteface_with_excel.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_inteface_with_excel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_inteface_with_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="e#75#129#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="798">
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -49,8 +36,8 @@
       <file leaf-file-name="generateTestcases.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/generateTestcases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="513">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -58,11 +45,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="interfaceUrl.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common_data/interfaceUrl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="writeToExcel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/writeToExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="35" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="494">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -70,8 +66,8 @@
       <file leaf-file-name="readExcel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/readExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="874">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -79,7 +75,7 @@
       <file leaf-file-name="excelToDic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/excelToDic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="209">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -118,11 +114,12 @@
         <option value="$PROJECT_DIR$/test/test_reqMethod.py" />
         <option value="$PROJECT_DIR$/testcase/test_inteface_with_excel.py" />
         <option value="$PROJECT_DIR$/test/test_common.py" />
-        <option value="$PROJECT_DIR$/common_data/interfaceUrl.py" />
         <option value="$PROJECT_DIR$/common/excelToDic.py" />
         <option value="$PROJECT_DIR$/common/generateTestcases.py" />
-        <option value="$PROJECT_DIR$/common/writeToExcel.py" />
         <option value="$PROJECT_DIR$/test/test_inteface_with_excel.py" />
+        <option value="$PROJECT_DIR$/common/writeToExcel.py" />
+        <option value="$PROJECT_DIR$/common_data/interfaceUrl.py" />
+        <option value="$PROJECT_DIR$/common_data/1.robot" />
       </list>
     </option>
   </component>
@@ -135,7 +132,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="945" />
     <option name="y" value="162" />
     <option name="width" value="981" />
@@ -146,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,48 +153,21 @@
             <path>
               <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="data_origin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interface-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interface-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="common_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_inteface_with_excel.py" />
+    <property name="last_opened_file_path" value="D:/software/Python/Python36-32/Scripts/rebot.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -420,19 +389,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5004042" side_tool="true" weight="0.33449477" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" weight="0.21428572" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252222" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -443,6 +412,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" visible="true" weight="0.3292683" />
     </layout>
   </component>
@@ -453,13 +423,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/writeToExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/readExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/excelToDic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_data/interfaceUrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,9 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#75#129#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -484,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,16 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
           <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common_data/interfaceUrl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -727,30 +703,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/readExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="874">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/excelToDic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/generateTestcases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="513">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
@@ -759,18 +732,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/writeToExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="35" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="494">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_inteface_with_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#75#129#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="798">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_data/1.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_data/interfaceUrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
