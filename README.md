@@ -21,7 +21,7 @@
   * testcase 存放接口测试编写的测试用例
   
 
-####整个测试框架主要分为两部分：测试用例生成，接口测试执行
+#### 整个测试框架主要分为两部分：测试用例生成，接口测试执行
 
 一、测试用例的生成：
 
@@ -38,7 +38,7 @@
       3. 将接口测试返回数据写入excel文件并保存在reports文件夹中。
 
 
-####测试流程如下所示：
+#### 测试流程如下所示：
 1 首先由用户设计原始的测试用例并为测试用例写用例注解，将原始测试用例写入excel文件中保存到data_origin文件夹中
 
 示例如下：
@@ -63,7 +63,7 @@
 示例如下：
 ![Image text](https://github.com/lilinyu861/Image/blob/master/InterfaceTest/response.png?raw=true)
 
-###common文件夹
+#### common文件夹
 common文件夹中写入了很多方法，其中有reqMethod.py,这个文件中存放了我目前接触到的
 接口请求方法，有get、post、put、patch、delete等以及需要session验证的这些接口请求方法。
 
@@ -73,4 +73,4 @@ excel文件中，generateTestcases.py文件中的生成测试用例方法会返�
 
 为了方便接口测试，我们将公用数据写入common_data文件夹中，例如接口地址。
 
-####详细的框架使用可以参见test文件夹中的测试用例。
+#### 详细的框架使用可以参见test文件夹中的测试用例。
